@@ -6,25 +6,29 @@ body{
     height: 100vh;
     background-color: hsl(348, 83%, 95%);
 }
-#switcher {
-    /* Light mode styles go here */
-    font-size: 20px;
-    background-color: rgb(255, 194, 248);
-  }
+
   button {
     font-size: 20px;
     border-width: 2px;
     border-radius: 6px;
 }
 body.dark button {
-    color: hsl(348, 20%, 15%); // Dark colour
-    border-color: hsl(348, 20%, 15%); // Dark colour
-    background-color: hsl(348, 83%, 95%); // Light colour
+    color: hsl(348, 20%, 15%);
+    border-color: hsl(348, 20%, 15%);
+    background-color: hsl(348, 83%, 95%);
 }
 body.light button {
-    color: hsl(348, 83%, 95%); // Light colour
-    border-color: hsl(348, 83%, 95%); // Light colour
-    background-color: hsl(348, 20%, 15%); // Dark colour
+    color: hsl(348, 83%, 95%);
+    border-color: hsl(348, 83%, 95%);
+    background-color: hsl(348, 20%, 15%);
 }
-  
-  
+  body.dark {
+    color: hsl(348, 83%, 95%);
+    border-color: hsl(348, 83%, 95%);
+    background-color: hsl(348, 20%, 15%);
+}
+body.light {
+    color: hsl(348, 20%, 15%);
+    border-color: hsl(348, 20%, 15%);
+    background-color: hsl(348, 83%, 95%);
+}
